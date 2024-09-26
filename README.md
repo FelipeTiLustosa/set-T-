@@ -2,12 +2,12 @@
 • Representa um conjunto de elementos (similar ao da Álgebra)<br>
 • Não admite repetições<br>
 • Elementos não possuem posição<br>
-• Acesso, inserção e remoção de elementos são rápidos<br>
-• Oferece operações eficientes de conjunto: interseção, união, diferença<br>
-• Principais implementações:<br>
-• `HashSet` - mais rápido (operações O(1) em tabela hash) e não ordenado<br>
-• `TreeSet` - mais lento (operações O(log(n)) em árvore rubro-negra) e ordenado pelo compareTo do objeto (ou Comparator)<br>
-• `LinkedHashSet` - velocidade intermediária e elementos na ordem em que são adicionados<br>
+• Acesso, inserção e remoção de elementos são rápidos<br> 
+• Oferece operações eficientes de conjunto: interseção, união, diferença<br> 
+• Principais implementações:<br> 
+• `HashSet` - mais rápido (operações O(1) em tabela hash) e não ordenado<br> 
+• `TreeSet` - mais lento (operações O(log(n)) em árvore rubro-negra) e ordenado pelo compareTo do objeto (ou Comparator)<br> 
+• `LinkedHashSet` - velocidade intermediária e elementos na ordem em que são adicionados<br> 
 
 ### Alguns métodos importantes:<br>
 • add(obj), remove(obj), contains(obj) - Baseado em equals e hashCode<br>
